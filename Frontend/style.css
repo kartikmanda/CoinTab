@@ -1,0 +1,103 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    margin-left: 44%;
+    
+}
+
+h3{
+    display:flex;
+    align-items:center;
+    margin-left: 47%;
+}
+
+form{ 
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid red; */
+    box-shadow: rgba(139, 135, 135, 0.2) 0px 7px 29px 0px;
+    margin-top: 3%;
+    background-color: white;
+    max-width: 420px;
+    width: 100%;
+    top: 20%;
+    left: 40%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.btnLog {
+        color: white;
+        background-color:#04AA6D;
+        font-weight: bold;
+        border: none;
+        width: 200px;
+        height: 50px;
+        cursor: pointer; 
+    margin-left: auto;}
+
+
+
+.container img{
+    width:60px;
+    height: 60px;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color:#04AA6D;
+    color: white;
+    padding: 15px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    align-items: center;
+    margin-left: 39%;
+    
+}
+
+input[type=email], input[type=password],input[type=submit],input[type=name] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display:inline-block;
+    border: 1px solid;
+    border-color: #1b75be;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(11, 150, 224);
+}
+  
+
+
+  .box {
+    border: 10px solid red;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+  }
+  
+
+ 
+    
+  

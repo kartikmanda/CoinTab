@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Homepage Of Cointab </title>
+</head>
+<body>
+    <div class="container">
+        <div class="Logo">
+            <img src="Img/logo.png" alt="logo" >
+        </div>
+        <h1>Cointab</h1>
+    </div>
+   
+    <h1 class="head1" style="margin: auto; text-align: center">
+        Welcome to CoinTab Assignment Created By Kartik Manda
+      </h1>
+      <br>
+      <h1 style="margin: auto; text-align: center">User Detail</h1>
+      <br/>
+      <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <div class="logoutbutton">
+                <nav><button class ="btnLog" onclick="LogoutFun()">LOGOUT</button></nav>
+            </div>
+      </div>
+
+      <script>
+        let email = localStorage.getItem("email");
+        console.log(email);
+        document.getElementById("email").innerText = email;
+      
+        function logoutFun() {
+          localStorage.clear();
+          alert("You have logged out");
+          window.location.href = "index.html";
+        }
+      </script>
+      
+
+
+
+    </body>
+  </html>
+</body>
+</html>
